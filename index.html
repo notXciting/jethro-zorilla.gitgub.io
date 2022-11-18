@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Jee</title>
+</head>
+
+<body>
+  <div id="particles-js"></div>
+  <!--  NavBar Section -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <div class="logo">
+              <img src="./img/logo.png" alt="logo.img">
+            </div>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#works" data-after="Works">Works</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  End NavBar Section -->
+
+  <!--   Hero Section -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, I'm Jee<span></span></h1>
+        <h1>I am a Software<span></span></h1>
+        <h1>& Web Developer.<span></span></h1>
+        <p class="desc">I'm currently learning the basics of C++, HTML, CSS & Javascript.</p>
+        <a href="#works" type="button" class="cta">MY PORTFOLIO</a>
+        <a href="#contact" type="button" class="bt2">GET IN TOUCH</a>
+      </div>
+    </div>
+  </section>
+  <!--   End Hero Section -->
+
+  <!--   Services Section -->
+  <section id="services">
+    <h1 class="section-title">My <span>Services</span></h1>
+    <div class="services container">
+      <div class="services-content">
+        <div class="services-box">
+          <div class="box">
+            <img src="./img/editg.png" alt="web-design.img">
+          </div>
+          <h2>Web Design</h2>
+          <p>Our approach to website design is to create a website that strengthens your company’s brand while ensuring
+            ease of use and simplicity for your audience.</p>
+        </div>
+        <div class="services-box">
+          <div class="box">
+            <img src="./img/codeg.png" alt="web-development.img">
+          </div>
+          <h2>Web Development</h2>
+          <p>The web development process involves taking the graphical elements defined in the design process and coding
+            them into a custom Wordpress theme.</p>
+        </div>
+        <div class="services-box">
+          <div class="box">
+            <img src="./img/cogg.png" alt="scd.img">
+          </div>
+          <h2>Custom Software Development</h2>
+          <p>I create software with long-term business value – tailored uniquely to your business processes and
+            adjustable to future needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  End Services Section -->
+
+  <!--   Works Section -->
+  <section id="works">
+    <div class="works container">
+      <div class="works-header">
+        <h1 class="section-title">My <span>Works</span></h1>
+      </div>
+      <div class="all-works">
+        <div class="work-item">
+          <div class="work-info">
+            <h1>AoP & MoP</h1>
+            <h2>Mode of Payment</h2>
+            <p>A program that will ask the user to input the total amount of the items and his mode of payment, then
+              compute to everything to show the NET Costs.</p>
+            <div class="btns">
+              <a href="#contact" type="button" class="btn1">Know More</a>
+              <a href="./works/aop_mop.cpp" type="button" class="btn2" download>Get Code</a>
+            </div>
+          </div>
+          <div class="work-img">
+            <img src="./img/project1.png" alt="work.img">
+          </div>
+        </div>
+        <div class="work-item">
+          <div class="work-info">
+            <h1>ODD & EVEN</h1>
+            <h2>Computes the sum of ODD & EVEN numbers</h2>
+            <p>A program that lets the user input a starting and ending integer (range) the display all the odd and even
+              integers within the range then compute the sum of each set of integers.</p>
+            <div class="btns">
+              <a href="#contact" type="button" class="btn1">Know More</a>
+              <a href="./works/odd_even.cpp" type="button" class="btn2" download>Get Code</a>
+            </div>
+          </div>
+          <div class="work-img">
+            <img src="./img/project2.png" alt="project.img">
+          </div>
+        </div>
+        <div class="work-item">
+          <div class="work-info">
+            <h1>Var. Swap</h1>
+            <h2>Swaps variables</h2>
+            <p>A program that will ask the user to input two variables, then interchange or swaps their positions
+              regarding which one is the first or the last.</p>
+            <div class="btns">
+              <a href="#contact" type="button" class="btn1">Know More</a>
+              <a href="./works/var_swap.cpp" type="button" class="btn2" download>Get Code</a>
+            </div>
+          </div>
+          <div class="work-img">
+            <img src="./img/project3.png" alt="project.img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--   End Works Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <h2 class="section-title">About <span>Me</span></h2>
+    <div class="about">
+      <div class="wrapper">
+        <div class="left">
+          <div class="card">
+            <div class="about-img">
+              <img src="./img/about.png" alt="about.img">
+            </div>
+            <p class="card-desc">I value clarity, empathy, and integrity above all else. These ideals guide my approach
+              to problem solving and life in general.</p>
+            <h3 class="card-name">Jethro P. Zorilla (Jee)</h3>
+            <p class="card-sub-title">CSPC/PSUB Student</p>
+          </div>
+        </div>
+        <div class="right">
+          <p class="subheading">Hi! I'm Jee. :)</p>
+          <h2 class="slogan">Future Software Developer</h2>
+          <p class="right-text">My name is Jethro P. Zorilla, I love designing web pages and coding. I’m more interested
+            in software development but, for now I I'll try learning how to develop a web page, I’m currently studying
+            at CSPC/PSUB as an IT student and hoping to learn more things about web development and maybe a bit of game
+            development.</p>
+          <div class="btns">
+            <a href="./myresume.pdf" type="button" class="btn3" download>Get My Resume</a>
+            <a href="#contact" type="button" class="btn4">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section clas="contact container1" id="contact">
+    <h2 class="section-title">Contact <span>Me</span></h2>
+    <form action="" class="contact-form" id="contact-form">
+      <input type="text" placeholder="Your Name" class="name" required>
+      <input type="email" name="" id="" placeholder="Email address..." class="email" required>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Write message here..." class="message"
+        required></textarea>
+      <input type="submit" value="Send" class="send-btn">
+    </form>
+  </section>
+  <!-- End Contact Section -->
+
+<!--   Footer -->
+  <section class="footer container1" id="footer">
+    <div class="social">
+      <a href="mailto:jeethro18@gmail.com"><img class="iconl" src="./img/gm1.png" alt=""></a>
+      <a href="https://www.facebook.com/jethro.zorilla"><img class="iconl" src="./img/fb1.png" alt=""></a>
+      <a href="https://www.tiktok.com/@jesu.ro"><img class="iconl" src="./img/tt1.png" alt=""></a>
+      <a href="https://www.instagram.com/j3e18/"><img class="iconl" src="./img/ig1.png" alt=""></a>
+    </div>
+    <p>&#169; JethroZorilla</p>
+  </section>
+<!--   End Footer -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("QPzOPqiSm-V5ngR2H");
+    })();
+  </script>
+  <script src="./js/particles.js"></script>
+  <script src="./js/particles.min.js"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
